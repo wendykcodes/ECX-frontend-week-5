@@ -1,0 +1,11 @@
+// Define a function named calculateSquare
+function calculateSquare(number) {
+  return number * number;
+}
+
+// Call the function with a number of your choice
+var inputNumber = 8; // Change this to any number you prefer
+var squareResult = calculateSquare(inputNumber);
+
+// Log the result using console.log()
+console.log(`The square of ${inputNumber} is: ${squareResult}`);
