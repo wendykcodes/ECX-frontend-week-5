@@ -1,0 +1,10 @@
+// Declare a variable named multiply and assign it a function expression
+var multiply = function(a, b) {
+  return a * b;
+};
+
+// Call the function with two numbers of your choice
+var result = multiply(8, 10);
+
+// Log the result using console.log()
+console.log("The product is:", result);
